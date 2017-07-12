@@ -30,7 +30,7 @@ class HeaderTableViewController: UITableViewController {
         
         if source.count == 0 {
             // setup header
-            self .setNoContent(msg: "Welcome!")
+            setNoContent(msg: "Welcome!")
         }
         
         
